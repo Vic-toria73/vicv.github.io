@@ -3,13 +3,13 @@ let firstName = ' Beyonce !';
 
 function sayHello(firstName, hour) {
     let message = 'Bonjour ';
-    let firstName2 = name2
+    let firstName2 = name2 + ' !';
     message += firstName2;
     
     if (hour < 18 && hour <= 18) {
-        console.log('Bonjour ' + firstName2)
+        console.log('Bonjour ' + firstName2);
     } else {
-        console.log('Bonsoir '+ firstName2)
+        console.log('Bonsoir '+ firstName2);
     }
 document.querySelector('h1').innerText = message;
 }
